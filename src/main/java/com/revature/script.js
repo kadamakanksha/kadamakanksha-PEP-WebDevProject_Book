@@ -176,6 +176,7 @@ async function handleSearch(event) {
  * 'selected-book' element is flexible and determined by the developer.
  * 
  */
+
 function displaySingleBook(book) {
     selectedBook.innerHTML = `
     <h2 class="title-element">${book.title}</h2>
